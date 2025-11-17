@@ -1,4 +1,4 @@
- body {
+ .parent {
      background: linear-gradient(135deg, #4a90e2, #6a11cb);
      height: 100vh;
      display: flex;
