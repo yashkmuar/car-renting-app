@@ -1,50 +1,19 @@
- body {
-      background: #f2f4f7; /* light background */
-      font-family: 'Poppins', sans-serif;
-    }
+body{
+    background: #f2f4f7;
+    font-family: 'Poppins',sans-serif;
+}
 
-    .card {
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-      transition: transform 0.2s ease-in-out;
-    }
+.card{
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
 
-    .card:hover {
-      transform: translateY(-3px);
-    }
+.card:hover{
+    transform: translateY(-3px);
+}
 
-    h2 {
-      font-weight: 600;
-    }
-
-    table img {
-      width: 60px;
-      height: 40px;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-
-    .form-label {
-      font-weight: 500;
-    }
-
-    .btn-primary {
-      border-radius: 25px;
-      padding: 6px 15px;
-      font-weight: 500;
-    }
-
-    .btn-outline-primary, .btn-outline-danger {
-      border-radius: 20px;
-    }
-
-    .card-header {
-      font-weight: 600;
-      background: linear-gradient(135deg, #4a90e2, #6a11cb);
-      color: white;
-    }
-
-    .card-footer {
-      background: #fafafa;
-    }
+h2{
+    font-weight: 600px;
+}
