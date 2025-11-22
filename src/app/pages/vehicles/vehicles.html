@@ -58,7 +58,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">Brand</label>
-                            <input type="text" class="form-control" placeholder="e.g. Toyota">
+                            <input type="text" [(ngModel)]="newCarObj.brand" class="form-control" placeholder="e.g. Toyota">
                         </div>
 
                         <div class="mb-3">
@@ -91,6 +91,10 @@
                             <button class="btn btn-primary btn-sm">Save Vehicle</button>
                         </div>
                     </form>
+                </div>
+
+                <div class="card-footer small text-muted">
+                    Fill the form and click Save
                 </div>
             </div>
         </div>
